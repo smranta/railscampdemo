@@ -1,0 +1,143 @@
+#header .login_status {
+	float:right;
+}
+#header_logo
+{
+	width:140px;
+	border:1px solid #999;
+	height:40px;
+	margin-bottom:10px;
+	float:left;
+}
+#header_ad
+{
+	width:340px;
+	border:1px solid #999;
+	height:40px;
+	margin-bottom:10px;
+	float:left;
+}
+#menu_div
+{
+	display:block;
+	height:40px;
+	margin-bottom:10px;
+}
+
+ul#header_menu{
+	float:right;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	width:auto;
+	position:relative;
+	display:block;
+	height:40px;
+	text-transform:uppercase;
+	font-size:13px;
+	background:transparent url("../images/blue.jpg") repeat-x top left;
+	font-family:Helvetica,Arial,Verdana,sans-serif;
+}
+
+ul#header_menu li{
+	display:block;
+	float:left;
+	margin:0;
+	padding:0;
+	border-right:1px solid #ffffff;
+	}
+
+ul#header_menu li a{
+	display:block;
+	float:left;
+	color:#ffffff;
+	text-decoration:none;
+	padding:12px 20px 0 20px;
+	height:24px;
+	height:40px;
+	}
+
+ul#header_menu li a:hover{
+	background:transparent url("../images/black.jpg") repeat-x top left;	
+	}	
+
+#footer{
+        text-align:center;
+}
+
+ul#footer_menu{
+        margin:0;
+        padding:0;
+        list-style-type:none;
+        width:auto;
+        position:relative;
+        display:block;
+        font-size:13px;
+}
+
+ul#footer_menu li
+{
+        display:inline;
+        margin:10px;
+        padding:0px;
+ }
+
+.clearfix{	clear:both;}
+
+#col_left { float: left; width: 50%; color: #555555;}
+#col_right { float: right; width: auto;}
+
+ul.itemlist { margin-top: 20px; list-style: none; display: block;}
+ul.itemlist li { margin: 10px 0; }
+ul.itemlist li.altodd { background-color: #EEEEEE;}
+
+.itemlist .lf { float: left; margin: 10px;}
+.itemlist .rf { float : right;}
+
+.lf { float: left }
+.rf { float: right }
+
+#search {
+	display:block;
+	margin:10px;
+	padding:10px;
+}
+
+#search .searchtext{
+	width:390px;
+}
+
+#search .advance{
+	width:390px;
+	text-align:right;
+	padding:0;
+	margin:0;
+}
+
+input[type="button"]{ color: #555555; }
+input[type="text"], input[type="password"], textarea, select { padding: 2px; border: 1px solid #d7d7d7; }
+input[type="text"], input[type="password"] { padding: 3px; }
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus, select:focus { border: 1px solid #888866; }
+option { border-bottom: 1px dotted #d7d7d7; }
+
+/* Tables */
+table.list { border: none; width: 100%;}
+table.list th { background-color: #fff; }
+table.list tbody td, table.list tbody tr td { text-align: center; border-bottom: solid 1px #ddd; font-size: 11px; padding:4px 10px 4px 3px; }
+table.list thead th {
+	border: none;
+	border-bottom:1px solid #999999;
+	font-size:9px;
+	font-weight:normal;
+	padding:0pt 3px 3px;
+	text-transform:uppercase;
+}
+
+table.list thead th a { color: #000; }
+table.list thead th a:hover { color: #000; }
+tr.odd table.list tbody tr.odd:hover { color: #900; font-weight: bold; }
+tr.odd { background: #ffc4c4; }
+tr.even, table.list tbody tr.even:hover { color: #900; font-weight: bold; }
+tr.even { background: #ffd4d4; }
+tr a, tr:hover a { color: #900; }
+tr.odd td, tr.even td { border-color: #ffb4b4; }

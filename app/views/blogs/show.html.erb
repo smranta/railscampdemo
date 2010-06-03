@@ -1,0 +1,31 @@
+<p>
+  <b>Title:</b>
+  <%=h @blog.title %>
+</p>
+
+<p>
+  <b>Content:</b>
+  <%=h @blog.content %>
+</p>
+
+<p>
+  <b>Author:</b>
+  <%=h @blog.author %>
+</p>
+
+<div class="posts">
+	<% @blog.posts.each do |post| %>
+		<div class="post">
+			<p class="title"><%= post.title %></p>
+			<p class="content"><%= post.content %></p>
+			<p> <%= link_to 'Edit' , edit_post_path( post ) %> |
+			<%= link_to 'Destroy', post, :confirm => 'Are you sure?', :method => :delete %> 
+			</p>
+		</div>
+	<% end %>
+</div>
+
+
+<%= link_to 'Edit', edit_blog_path(@blog) %> |
+<%= link_to 'Post', { :controller => 'posts', :action => 'new', :blog_id => @blog.id } %> |
+<%= link_to 'Back', blogs_path %>

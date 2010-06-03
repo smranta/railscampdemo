@@ -1,0 +1,48 @@
+#profile_left {
+	float: left;
+	padding: 5px;
+	margin: 5px;
+	width: 40%;
+}
+
+#profile_user { clear:both; }
+
+#profile_right {
+	float: right;
+	padding: 5px;
+	margin: 5px;
+}
+
+#profile_pic {
+	float:left;
+}
+<<<<<<< HEAD
+
+#profile_details {
+	float:left;
+	margin-left: 10px;
+}
+
+#profile_places{
+	clear: both;
+	min-height: 300px ;
+	padding: 10px;
+	margin-top: 40px;
+	border: 1px solid #ddd;
+}
+#profile_maps{
+	display:block;
+	height:300px;
+	width:450px;
+	padding:10px;
+	margin:10px;
+	border:1px solid #ddd;
+}
+#profile_favorites{
+	display:block;
+	height:200px;
+	width:450px;
+	padding:10px;
+	margin:10px;
+	border:1px solid #ddd;
+}
